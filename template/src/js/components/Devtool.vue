@@ -9,20 +9,6 @@
       el-button#compile-btn(type="primary", size="mini", @click="reload", icon="el-icon-refresh") Reload Extension
     el-container
       el-aside
-        el-input(
-          size="mini",
-          clearable,
-          placeholder="Node name",
-          v-model="filterText")
-        el-tree(
-          ref="tree",
-          :data="treeNode",
-          node-key="id",
-          :highlight-current="true",
-          :default-expanded-keys="[1, 2]",
-          :expand-on-click-node="false",
-          :filter-node-method="filterNode",
-          @node-click="onClickTreeNode")
       el-main
 </template>
 
@@ -88,11 +74,6 @@ import 'element-ui/lib/theme-chalk/index.css'
 import { Message } from 'element-ui'
 import { Notification } from 'element-ui'
 import ElButton from 'element-ui/lib/button'
-import ElCheckbox from 'element-ui/lib/checkbox'
-import ElSwitch from 'element-ui/lib/switch'
-import ElInput from 'element-ui/lib/input'
-import ElInputNumber from 'element-ui/lib/input-number'
-import ElColorPicker from 'element-ui/lib/color-picker'
 import ElTree from 'element-ui/lib/tree'
 import ElContainer from 'element-ui/lib/container'
 import ElHeader from 'element-ui/lib/header'
@@ -128,15 +109,6 @@ const app = {
   },
   data () {
     return {
-      isShowDebugLayer: false,
-      isShowFps: true,
-      isShowErudaBtn: true,
-      treeNode: [],
-      nodeProps: [],
-      nodeComps: [],
-      filterText: '',
-      LogImg,
-      inputNumberStep: 1
     }
   },
   mounted () {
