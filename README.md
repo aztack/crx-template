@@ -19,6 +19,11 @@ npm start
 npm run release
 ```
 
+# Preview
+
+- Open `chrome://extensions/`
+- Load unpacked extension from `./build/dev`
+
 # Licence
 
 MIT
