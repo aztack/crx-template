@@ -1,6 +1,6 @@
 <template lang="pug">
-.cc-devtool-options
-  h1 {{camelize name}} Devtool Settings
+.{{name}}-options
+  h1 {{camelize name}} Settings
 </template>
 
 <style lang="styl">
@@ -12,7 +12,7 @@ p
 
 <script>
   export default {
-    name: '{{camelize name}}DevtollOptions',
+    name: '{{camelize name}}Options',
     components: {},
     data () {
       return {

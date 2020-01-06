@@ -1,7 +1,7 @@
 export default function () {
   const devtool = window.devtool = {
     /**
-     * Post message to content script and then forward message to cc-devtool
+     * Post message to content script and then forward message to devtool
      * @param  {String} type, all type are prefixed with ':'
      * @param  {any} data
      */

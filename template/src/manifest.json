@@ -1,10 +1,10 @@
 {
-  "name": "{{camelize name}} Devtool",
+  "name": "{{camelize name}}",
   "version": "1.0.0",
   "description": "{{description}}",
   "manifest_version": 2,
   "browser_action": {
-    "default_title": "{{camelize name}} Devtool",
+    "default_title": "{{camelize name}}",
     "default_icon": "img/48.png",
     "default_popup": "html/popup-not-found.html"
   },
@@ -14,6 +14,7 @@
     "128": "img/128.png"
   },
   "devtools_page": "html/devtool.html",
+  "options_page": "html/options.html",
   "content_scripts": [
     {
       "matches": [
