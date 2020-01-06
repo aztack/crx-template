@@ -24,6 +24,15 @@ npm run release
 - Open `chrome://extensions/`
 - Load unpacked extension from `./build/dev`
 
+# Release
+
+- `npm run release`
+- Compress `build/prod/*.*` into `prod.zip`
+- Upload prod.zip to Chrome Web Store (You need a developer account)
+- Upload screenshot for you extension
+- Fill up extension form
+- Save and publish
+
 # Licence
 
 MIT
