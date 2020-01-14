@@ -73,7 +73,10 @@ import LogImg from '../../img/48.png'
 import 'element-ui/lib/theme-chalk/index.css'
 import { Message } from 'element-ui'
 import { Notification } from 'element-ui'
+import ElInput from 'element-ui/lib/input'
 import ElButton from 'element-ui/lib/button'
+import ElCheckbox from 'element-ui/lib/checkbox'
+import ElSwitch from 'element-ui/lib/switch'
 import ElTree from 'element-ui/lib/tree'
 import ElContainer from 'element-ui/lib/container'
 import ElHeader from 'element-ui/lib/header'
@@ -93,8 +96,6 @@ const app = {
   mixins: [],
   components: {
     ElInput,
-    ElInputNumber,
-    ElColorPicker,
     ElButton,
     ElCheckbox,
     ElSwitch,
