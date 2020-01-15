@@ -33,6 +33,11 @@ npm run release
 - Fill up extension form
 - Save and publish
 
+# Usecases
+
+- [Cocos Creator Devtool](https://chrome.google.com/webstore/detail/cocos-creator-devtool/cnmkiolbnmjlhdkabcgobbgdomhhdnho)
+- [Mermaid Markdown](https://chrome.google.com/webstore/detail/mermaid-markdown/mboeoikjijmjcjgpccghbcoegikliijg)
+
 # Licence
 
 MIT
